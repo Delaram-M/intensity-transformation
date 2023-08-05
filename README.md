@@ -32,7 +32,7 @@ This project includes implementation of some intensity transformations in Digita
 ### Negative transformation:
 ![Cute Piglet negative transformation](assets/images/negative.png)
 
-### Piecewise linear transformation ($(a1, b1) = (75, 100), (a2, b2) = (225, 250)$):
+### Piecewise linear transformation $((a_1, b_1) = (75, 100), (a_2, b_2) = (225, 250))$:
 ![Cute Piglet piecewise linear transformation a1, b1 = 75, 100 / a2, b2 = 225, 250](assets/images/piecewise_75_100_225_250.png)
 
 ### Logarithmic transformation:
