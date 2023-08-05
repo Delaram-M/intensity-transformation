@@ -13,7 +13,7 @@ This project includes implementation of some intensity transformations in Digita
 
 ## Usage
 1. set "img_path" variable in "main.py" to input image's path. (Images will be converted to grayscale.)
-2. Execute the python file corresponding to transformation of choice.
+2. Execute the python file corresponding to the transformation of choice.
     - Linear transformation: "linear.py"
     - Negative transformation: "negative.py"
     - Piecewise linear transformation: "piecewise_linear.py"

@@ -8,7 +8,10 @@ img_cp = np.copy(img)
 
 
 def line_equation_finder(x1, y1, x2, y2):
-    alpha = (y2 - y1) / (x2 - x1)
+    if x1 == x2:
+        alpha = 0
+    else:
+        alpha = (y2 - y1) / (x2 - x1)
     beta = y2 - alpha * x2
     return alpha, beta
 
