@@ -20,25 +20,25 @@ This project includes implementation of some intensity transformations in Digita
 
 ## Sample Outputs
 ### Grayscale input:
-![Cute Piglet](assests/images/grayscale.png)
+![Cute Piglet](assets/images/grayscale.png)
 
 ### Linear transformation ($\alpha=2, \beta=50$):
-![Cute Piglet linear transformation alpha=2 beta=50](assests/images/linear_alpha2_beta50.png)
+![Cute Piglet linear transformation alpha=2 beta=50](assets/images/linear_alpha2_beta50.png)
 
 ### Logarithmic transformation:
-![Cute Piglet logarithmic transformation](assests/images/log.png)
+![Cute Piglet logarithmic transformation](assets/images/log.png)
 
 ### Power-law transformation ($\gamma = 4$):
-![Cute Piglet power-law transformation gammae=4](assests/images/power_law_gamma4.png)
+![Cute Piglet power-law transformation gammae=4](assets/images/power_law_gamma4.png)
 
 ### Histogram equalization:
-![Cute Piglet histogram equalization](assests/images/histogram_equalization.png)
+![Cute Piglet histogram equalization](assets/images/histogram_equalization.png)
 
 
 ## Attributions
 Sample image:
 <figure>
-  <img src="https://github.com/Delaram-M/intensity-transformation/blob/main/assests/images/cute-piglet.jpg" alt="Cute Piglet" width="250"> 
+  <img src="https://github.com/Delaram-M/intensity-transformation/blob/main/assets/images/cute-piglet.jpg" alt="Cute Piglet" width="250"> 
   <figcaption>
      <a href="https://www.publicdomainpictures.net/en/view-image.php?image=24588&picture=cute-piglet">Cute Piglet</a> 
      by <a href="https://www.publicdomainpictures.net/en/browse-author.php?a=1">Petr Kratochvil</a> 
