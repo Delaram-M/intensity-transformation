@@ -8,6 +8,7 @@ This project includes implementation of some intensity transformations in Digita
 - Thresholding (with custom threshold) (a special case of piecewise linear transformation)
 - Logarithmic transformation: $f(i) = [\frac{255\ log(i+1)}{log(256)}]$
 - Power-law transformation: $f(i) = [ci^\gamma]$ (custom $\gamma$ and calculated appropriate $c$)
+- Histogram stretching
 - Histogram equalization
 
 ## Usage
@@ -19,6 +20,7 @@ This project includes implementation of some intensity transformations in Digita
     - Thresholding: "thresholding.py"
     - Logarithmic transformation: "logarithmic.py"
     - Power-law transformation: "power_law.py"
+    - Histogram stretching: "histogram_stretching.py"
     - Histogram equalization: "histogram_equalization.py"
 3. Enter requested custom parameters if necessary.
 4. Transformed output image will be shown.
@@ -45,6 +47,9 @@ This project includes implementation of some intensity transformations in Digita
 
 ### Power-law transformation ($\gamma = 4$):
 ![Cute Piglet power-law transformation gamma=4](assets/images/power_law_gamma4.png)
+
+### Histogram stretching:
+![Cute Piglet histogram stretching](assets/images/histogram_stretching.png)
 
 ### Histogram equalization:
 ![Cute Piglet histogram equalization](assets/images/histogram_equalization.png)
