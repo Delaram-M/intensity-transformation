@@ -5,6 +5,7 @@ This project includes implementation of some intensity transformations in Digita
 - Linear transformation: $f(i) = \alpha i + \beta$ (custom $\alpha$ and $\beta$)
 - Negative transformation: $f(i) = -i + 255$ (a special case of linear transformation)
 - Piecewise linear transformation (with 2 custom transformation function breaking points)
+- Thresholding (with custom threshold) (a special case of piecewise linear transformation)
 - Logarithmic transformation: $f(i) = [\frac{255\ log(i+1)}{log(256)}]$
 - Power-law transformation: $f(i) = [ci^\gamma]$ (custom $\gamma$ and calculated appropriate $c$)
 - Histogram equalization
@@ -15,6 +16,7 @@ This project includes implementation of some intensity transformations in Digita
     - Linear transformation: "linear.py"
     - Negative transformation: "negative.py"
     - Piecewise linear transformation: "piecewise_linear.py"
+    - Thresholding: "thresholding.py"
     - Logarithmic transformation: "logarithmic.py"
     - Power-law transformation: "power_law.py"
     - Histogram equalization: "histogram_equalization.py"
@@ -34,6 +36,9 @@ This project includes implementation of some intensity transformations in Digita
 
 ### Piecewise linear transformation $((a_1, b_1) = (75, 100), (a_2, b_2) = (225, 250))$:
 ![Cute Piglet piecewise linear transformation a1, b1 = 75, 100 / a2, b2 = 225, 250](assets/images/piecewise_75_100_225_250.png)
+
+### Thresholding (threshold = 100):
+![Cute Piglet Thresholding threshold = 100](assets/images/thresholding_100.png)
 
 ### Logarithmic transformation:
 ![Cute Piglet logarithmic transformation](assets/images/log.png)
