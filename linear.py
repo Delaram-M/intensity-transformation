@@ -2,14 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from main import img, print_image
 
-print_image(img)
-plt.show()
-img_cp = np.copy(img)
-
-print("\nenter parameters.")
-a = float(input("alpha: "))
-b = float(input("beta: "))
-
 
 def linear_transformation(image, alpha, beta):
     for x, y in np.ndindex(image.shape):
@@ -22,6 +14,15 @@ def linear_transformation(image, alpha, beta):
     return image
 
 
-img_cp = linear_transformation(img_cp, a, b)
-print_image(img_cp)
-plt.show()
+if __name__ == '__main__':
+    print_image(img)
+    plt.show()
+    img_cp = np.copy(img)
+
+    print("\nenter parameters.")
+    a = float(input("alpha: "))
+    b = float(input("beta: "))
+
+    img_cp = linear_transformation(img_cp, a, b)
+    print_image(img_cp)
+    plt.show()

@@ -3,6 +3,7 @@
 ## Description
 This project includes implementation of some intensity transformations in Digital Image Processing for 8-bit images:
 - Linear transformation: $f(i) = \alpha i + \beta$ (custom $\alpha$ and $\beta$)
+- Negative transformation: $f(i) = -i + 255$ (a special case of linear transformation)
 - Logarithmic transformation: $f(i) = [\frac{255\ log(i+1)}{log(256)}]$
 - Power-law transformation: $f(i) = [ci^\gamma]$ (custom $\gamma$ and calculated appropriate $c$)
 - Histogram equalization
@@ -11,6 +12,7 @@ This project includes implementation of some intensity transformations in Digita
 1. set "img_path" variable in "main.py" to input image's path. (Images will be converted to grayscale.)
 2. Execute the python file corresponding to transformation of choice.
     - Linear transformation: "linear.py"
+    - Negative transformation: "negative.py"
     - Logarithmic transformation: "logarithmic.py"
     - Power-law transformation: "power_law.py"
     - Histogram equalization: "histogram_equalization.py"
@@ -25,11 +27,14 @@ This project includes implementation of some intensity transformations in Digita
 ### Linear transformation ($\alpha=2, \beta=50$):
 ![Cute Piglet linear transformation alpha=2 beta=50](assets/images/linear_alpha2_beta50.png)
 
+### Negative transformation:
+![Cute Piglet negative transformation](assets/images/negative.png)
+
 ### Logarithmic transformation:
 ![Cute Piglet logarithmic transformation](assets/images/log.png)
 
 ### Power-law transformation ($\gamma = 4$):
-![Cute Piglet power-law transformation gammae=4](assets/images/power_law_gamma4.png)
+![Cute Piglet power-law transformation gamma=4](assets/images/power_law_gamma4.png)
 
 ### Histogram equalization:
 ![Cute Piglet histogram equalization](assets/images/histogram_equalization.png)
